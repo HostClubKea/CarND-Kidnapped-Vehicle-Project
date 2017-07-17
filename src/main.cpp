@@ -1,6 +1,7 @@
 #include <uWS/uWS.h>
 #include <iostream>
 #include "json.hpp"
+#include "nanoflann.hpp"
 #include <math.h>
 #include "particle_filter.h"
 

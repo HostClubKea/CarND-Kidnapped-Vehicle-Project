@@ -43,6 +43,12 @@ struct LandmarkObs {
 	double y;			// Local (vehicle coordinates) y position of landmark observation [m]
 };
 
+struct PredictionObservation {
+
+    int prediction;				// Id of matching landmark in the map.
+    int observation;			// Local (vehicle coordinates) x position of landmark observation [m]
+};
+
 /*
  * Computes the Euclidean distance between two 2D points.
  * @param (x1,y1) x and y coordinates of first point
